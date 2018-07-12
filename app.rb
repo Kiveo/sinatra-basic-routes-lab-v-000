@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   get 'name' do
+    status = 200
     "My name is __"
   end
 
